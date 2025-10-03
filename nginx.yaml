@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nynregistry.azurecr.io/nginx-webapp:latest
+        image: nginx:latest
         ports:
         - containerPort: 80
